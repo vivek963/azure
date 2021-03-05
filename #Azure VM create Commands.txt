@@ -1,0 +1,9 @@
+#Azure VM create Commands
+
+az vm create `
+--name LabVM `
+--resource-group name of the group `
+--image UbuntuTLS `
+--admin-username azureuser `
+--generate-ssh-keys
+
